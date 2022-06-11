@@ -1,0 +1,4 @@
+DROP DATABASE IF EXISTS dualChiro_db;
+
+CREATE DATABASE dualChiro_db;
+
