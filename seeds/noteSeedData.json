@@ -1,0 +1,26 @@
+[
+    {
+       "date": "04/04/2022",
+       "doctor": "Dr. Wood",
+       "subject_findings": "Pain in left side of neck with headache",
+       "objective_findings": "decreased ROM with left cervical rotation, left lateral flexion, and cervical extension. Positive Foraminal Compression and cervical shoulder depression. Weak left shoulder abductors and flexors test.",
+       "adjustment_code": "98940 CMT 1-2 Areas; C T",
+       "plan": "continue recommended tx plan 2 times a week for 4 weeks. Re-exam:05/02/2022"
+    },
+    {
+        "date": "04/12/2022",
+        "doctor": "Dr. Wood",
+        "subject_findings": "Pain in right hip with LBP",
+        "objective_findings": "decreased ROM with left lumbar rotation, left lateral flexion, hip abduction and lumbar flexion. Positive Kemp's Test and Straight Leg Raiser.",
+        "adjustment_code": "98941 CMT 3-4 Areas; C L S",
+        "plan": "continue recommended tx plan 2 times a week for 2 weeks. Re-exam:04/26/2022"
+     },
+     {
+        "date": "05/20/2022",
+        "doctor": "Dr. Wood",
+        "subject_findings": "Pain in right side of neck when looking over right shoulder",
+        "objective_findings": "decreased ROM with right cervical rotation, right lateral flexion, and cervical extension. Positive Foraminal Compression and cervical shoulder depression. Weak right shoulder abductors and flexors test.",
+        "adjustment_code": "98940 CMT 1-2 Areas; C T",
+        "plan": "continue recommended tx plan 3 times a week for 1 week. Re-exam:05/27/2022"
+     }
+]
