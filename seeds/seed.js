@@ -1,5 +1,5 @@
 const sequelize = require('../config/connection');
-const { Patient, Note } = require('../models');
+const { Patient, Note, Serial } = require('../models');
 
 
 const PatientSeedData = [
@@ -36,9 +36,9 @@ const NoteSeedData = [
          doctor: "Dr. Wood",
          subjective_findings: "Pain in right hip with LBP",
          objective_findings: "decreased ROM with left lumbar rotation, left lateral flexion, hip abduction and lumbar flexion. Positive Kemp's Test and Straight Leg Raiser.",
-         "adjustment_code": "98941 CMT 3-4 Areas; C L S",
-         "plan": "continue recommended tx plan 2 times a week for 2 weeks. Re-exam:04/26/2022",
-         "patient_id": 2
+         adjustment_code: "98941 CMT 3-4 Areas; C L S",
+         plan: "continue recommended tx plan 2 times a week for 2 weeks. Re-exam:04/26/2022",
+         patient_id: 2
       },
       {
          date: "05/20/2022",
@@ -67,11 +67,11 @@ const seedDatabase = async () => {
 
   const notes = await Note.bulkCreate(NoteSeedData);
 
-//   for (const { id } of readers) {
-//     const newCard = await LibraryCard.create({
-//       reader_id: id,
-//     });
-//   }
+  for (const { id } of patients) {
+    const newSerial = await Serial.create({
+      patient_id: id,
+    });
+  }
 
 //   for (const book of bookSeedData) {
 //     const newBook = await Book.create({
