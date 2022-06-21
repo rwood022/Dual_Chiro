@@ -27,7 +27,7 @@ Note.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    adjustment: {
+    adjustment_code: {
       type: DataTypes.STRING,
       defaultValue: 1
     },
